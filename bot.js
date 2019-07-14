@@ -41,7 +41,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    const swearWords = ["ip","IP","اي بي"];
+    const swearWords = ["ip","IP"];
     if( swearWords.some(word => message.content.includes(word)) ) {
 
 	     message.react('👋');
