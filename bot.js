@@ -40,6 +40,15 @@ client.on('message', message => {
       }
 });
 
+client.on('message', message => {
+    const swearWords = ["ip","IP","اي بي"];
+    if( swearWords.some(word => message.content.includes(word)) ) {
+
+	     message.react('👋');
+        message.reply('اي بي سيرفر عرب جي اس للحياة الواقعية هو \n 88.214.57.152:32090');
+      }
+});
+
 
 
 client.on('message', function(message) {
