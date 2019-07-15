@@ -21,7 +21,7 @@ client.on('ready', () => {
         game: {
             name: 'ArabGS.com',
             type: "Streaming",
-            url: "https://www.twitch.tv/omarjxh"
+            url: "https://www.twitch.tv/i_phyz"
         }
     });
   
