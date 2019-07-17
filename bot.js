@@ -45,7 +45,7 @@ client.on('message', message => {
     if( swearWords.some(word => message.content.includes(word)) ) {
 
 	     message.react('👋');
-        message.reply('اي بي سيرفر عرب جي اس للحياة الواقعية هو \n 88.214.57.152:32090');
+        message.reply('اي بي سيرفر عرب جي اس للحياة الواقعية هو \n 95.156.227.101:30120');
       }
 });
 
